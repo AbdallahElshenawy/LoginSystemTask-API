@@ -44,11 +44,11 @@ Before you begin, ensure you have the following installed:
     
     dotnet run
 
- API Endpoints
+API Endpoints
 
- AuthController
+# **AuthController**
 
-#post /api/auth/login
+# post /api/auth/login
 ## Logs in an existing user and returns a token.
 ## Example Credentials To Test The Endpoints:
 ## Admin: "username": "admin", "password": "admin123"
@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed:
 # put /api/auth/users/{userId}/role
 ## Updates the role of a specified user.
 
- EmployeesController
+# **EmployeesController**
 # post /api/employees
 ## Creates a new employee.
 
@@ -75,7 +75,7 @@ Before you begin, ensure you have the following installed:
 # delete /api/employees/{id}
 ## Deletes an employee by ID.
 
- UsersController
+# **UsersController**
 
 # post /api/users
 ## Creates a new user.
@@ -95,7 +95,7 @@ Before you begin, ensure you have the following installed:
 # get /api/users/username/{username}
 ## Retrieves a user by username.
 
- RolesController
+# **RolesController**
 
 # post /api/roles
 ## Creates a new role.
@@ -112,7 +112,7 @@ Before you begin, ensure you have the following installed:
 # get /api/roles/{roleId}/permissions
 ## Retrieves permissions for a specific role.
 
- PermissionsController
+# **PermissionsController**
 
 # post /api/permissions
 ## Creates a new permission.
@@ -130,7 +130,7 @@ Before you begin, ensure you have the following installed:
 ## Deletes a permission by ID.
 
 
-AuditLogsController
+# **AuditLogsController**
 
 # get /api/auditlogs
 ## Retrieves a filtered list of audit logs.
