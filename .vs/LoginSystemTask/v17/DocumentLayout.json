@@ -1,0 +1,965 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\iauditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\iauditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\loginsystemtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\loginsystemtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\authentication\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\authentication\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\authentication\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\authentication\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\infrastructureregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\infrastructureregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\applicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\applicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\user\\useradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\user\\useradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\authentication\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\authentication\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\irepositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\irepositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\interfaces\\iservices\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\interfaces\\iservices\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\migrations\\20250402101830_editlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\migrations\\20250402101830_editlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\salarydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\salarydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\interfaces\\irepositories\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\interfaces\\irepositories\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\employee\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\employee\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\employee\\employeeadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\employee\\employeeadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\employee\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\employee\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\loginsystemtask.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\loginsystemtask.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.infrastructure\\migrations\\20250401040041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A731B05-9AFD-4B33-B95C-FF5CB7AD69BC}|LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj|solutionrelative:loginsystemtask.infrastructure\\migrations\\20250401040041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\helpers\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\helpers\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask.Infrastructure\\Migrations\\20250401035757_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:20:10.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:27:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuditLogService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:51:19.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginSystemTask.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\LoginSystemTask.API.csproj",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\LoginSystemTask.API.csproj",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\LoginSystemTask.API.csproj",
+              "RelativeToolTip": "LoginSystemTask.API\\LoginSystemTask.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T16:03:18.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAxwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:20:22.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwIIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:23:19.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuditLogService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAwAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:12:03.634Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:25:45.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:27:19.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:19:39.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:19:03.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:55:37.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:22:22.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAzwKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:49:54.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAywIwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:34:26.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAwwLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:18:11.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:53:17.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InfrastructureRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\InfrastructureRegistration.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\InfrastructureRegistration.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\InfrastructureRegistration.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\InfrastructureRegistration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:50:42.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\ApplicationRegistration.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\ApplicationRegistration.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\ApplicationRegistration.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\ApplicationRegistration.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:51:23.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Program.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Program.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwFMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:28:12.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:52:39.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:51:47.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:49:28.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\User.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:59:51.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAIAwwHQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:49:43.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:49:17.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuditLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAApwBEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:53:25.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:54:29.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IUserService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:49:52.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserAddDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\User\\UserAddDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserAddDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\User\\UserAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:54:11.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IPermissionService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IPermissionService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IPermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:18:49.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:46:04.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IPermissionRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IPermissionRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IPermissionRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IPermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:35:02.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IEmployeeService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Interfaces\\IServices\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:16:49.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\User\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserResponseDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\User\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:51:31.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Role.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:00:15.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\AuditLog.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:01:07.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:45:38.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\User\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\User\\UserUpdateDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\User\\UserUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:54:38.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:34:31.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:53:58.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:32:43.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250402101830_EditLogModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Migrations\\20250402101830_EditLogModel.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Migrations\\20250402101830_EditLogModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Migrations\\20250402101830_EditLogModel.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Migrations\\20250402101830_EditLogModel.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:18:31.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SalaryDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\SalaryDetails.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\SalaryDetails.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\SalaryDetails.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\SalaryDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:27:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\RolePermission.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\RolePermission.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:55:08.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Permission.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:00:37.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\Employee.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Models\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:59:09.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IAuditLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IAuditLogRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IAuditLogRepository.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Interfaces\\IRepositories\\IAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:35:26.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EmployeeResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeResponseDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeResponseDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeResponseDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:28:11.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmployeeAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeAddDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeAddDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeAddDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeAddDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:24:59.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmployeeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeUpdateDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\Employee\\EmployeeUpdateDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\Employee\\EmployeeUpdateDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:26:23.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAMBAwBQAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:44:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LoginSystemTask.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\LoginSystemTask.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T10:55:12.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:33:23.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250401040041_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Migrations\\20250401040041_Initial.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Migrations\\20250401040041_Initial.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Migrations\\20250401040041_Initial.cs",
+              "RelativeToolTip": "LoginSystemTask.Infrastructure\\Migrations\\20250401040041_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T04:00:41.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250401035757_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask.Infrastructure\\Migrations\\20250401035757_Initial.cs",
+              "RelativeDocumentMoniker": "..\\LoginSystemTask.Infrastructure\\Migrations\\20250401035757_Initial.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask.Infrastructure\\Migrations\\20250401035757_Initial.cs",
+              "RelativeToolTip": "..\\LoginSystemTask.Infrastructure\\Migrations\\20250401035757_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:57:57.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Helpers\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Helpers\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Helpers\\JwtOptions.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Helpers\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:10:11.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\appsettings.json",
+              "RelativeToolTip": "LoginSystemTask.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T15:01:35.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

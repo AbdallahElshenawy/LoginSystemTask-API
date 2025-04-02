@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ht9a5KjWOkGmeJB/bQ+1jrPInOoiO1I7PdUowVOzUjI=",
+  "Source": "LoginSystemTask.API",
+  "BasePath": "_content/LoginSystemTask.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
