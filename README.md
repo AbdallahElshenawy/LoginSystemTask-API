@@ -49,89 +49,89 @@ API Endpoints
 # **AuthController**
 
 # post /api/auth/login
-## Logs in an existing user and returns a token.
-## Example Credentials To Test The Endpoints:
-## Admin: "username": "admin", "password": "admin123"
+##### Logs in an existing user and returns a token.
+#### Example Credentials To Test The Endpoints:
+#### Admin: "username": "admin", "password": "admin123"
 
 # post /api/auth/users/{userId}/assign-role
-## Assigns a role to a specified user.
+##### Assigns a role to a specified user.
 
 # put /api/auth/users/{userId}/role
-## Updates the role of a specified user.
+##### Updates the role of a specified user.
 
 # **EmployeesController**
 # post /api/employees
-## Creates a new employee.
+##### Creates a new employee.
 
 # put /api/employees/{id}
-## Updates an existing employee.
+##### Updates an existing employee.
 
 # get /api/employees/{employeeCode}
-## Retrieves an employee by its employeeCode.
+##### Retrieves an employee by its employeeCode.
 
 # get /api/employees
-## Retrieves a filtered list of employees.
+##### Retrieves a filtered list of employees.
 
 # delete /api/employees/{id}
-## Deletes an employee by ID.
+##### Deletes an employee by ID.
 
 # **UsersController**
 
 # post /api/users
-## Creates a new user.
+##### Creates a new user.
 
 # put /api/users/{id}
-## Updates an existing user.
+##### Updates an existing user.
 
 # delete /api/users/{id}
-## Deletes a user by ID.
+##### Deletes a user by ID.
 
 # get /api/users/{id}
-## Retrieves a user by ID.
+##### Retrieves a user by ID.
 
 # get /api/users
-## Retrieves all users.
+##### Retrieves all users.
 
 # get /api/users/username/{username}
-## Retrieves a user by username.
+##### Retrieves a user by username.
 
 # **RolesController**
 
 # post /api/roles
-## Creates a new role.
+##### Creates a new role.
 
 # post /api/roles/{roleId}/permissions/{permissionId}
-## Assigns a permission to a role.
+##### Assigns a permission to a role.
 
 # get /api/roles
-## Retrieves all roles with their permissions.
+##### Retrieves all roles with their permissions.
 
 # delete /api/roles/{roleId}/permissions/{permissionId}
-## Removes a permission from a role.
+##### Removes a permission from a role.
 
 # get /api/roles/{roleId}/permissions
-## Retrieves permissions for a specific role.
+##### Retrieves permissions for a specific role.
 
 # **PermissionsController**
 
 # post /api/permissions
-## Creates a new permission.
+##### Creates a new permission.
 
 # get /api/permissions/{id}
-## Retrieves a permission by its ID.
+##### Retrieves a permission by its ID.
 
 # get /api/permissions
-## Retrieves all permissions.
+##### Retrieves all permissions.
 
 # put /api/permissions/{id}
-## Updates an existing permission.
+##### Updates an existing permission.
 
 # delete /api/permissions/{id}
-## Deletes a permission by ID.
+##### Deletes a permission by ID.
 
 
 # **AuditLogsController**
 
 # get /api/auditlogs
-## Retrieves a filtered list of audit logs.
+##### Retrieves a filtered list of audit logs.
 

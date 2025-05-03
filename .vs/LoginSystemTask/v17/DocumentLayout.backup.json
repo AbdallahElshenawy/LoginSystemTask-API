@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC1A9F0-B2B8-46AF-BBF4-FB0399872488}|LoginSystemTask.Application\\LoginSystemTask.Application.csproj|solutionrelative:loginsystemtask.application\\services\\authentication\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|solutionrelative:loginsystemtask.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF33988E-DF6A-4243-B0D6-8B8EE0B25E8A}|LoginSystemTask.API\\LoginSystemTask.API.csproj|c:\\users\\dell\\source\\repos\\loginsystemtask\\loginsystemtask-api\\loginsystemtask.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -241,7 +241,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -252,28 +252,8 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuditLogService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
-              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
-              "RelativeToolTip": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAwAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T13:12:03.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AuditLogsController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
@@ -281,12 +261,11 @@
               "RelativeToolTip": "LoginSystemTask.API\\Controllers\\AuditLogsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:20:10.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:20:10.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IAuthService.cs",
@@ -298,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IAuditLogService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\IAuditLogService.cs",
@@ -310,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LoginSystemTask.API.csproj",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\LoginSystemTask.API.csproj",
               "RelativeDocumentMoniker": "LoginSystemTask.API\\LoginSystemTask.API.csproj",
@@ -322,7 +301,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAxwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:20:22.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwIIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:23:19.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuditLogService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "RelativeToolTip": "LoginSystemTask.Application\\Services\\AuditLogService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAwAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:12:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\AuthController.cs",
@@ -334,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\AuthService.cs",
@@ -346,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\RoleService.cs",
@@ -358,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Application\\Interfaces\\IServices\\Authentication\\IRoleService.cs",
@@ -370,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.Infrastructure\\Models\\UserRole.cs",
@@ -382,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\RolesController.cs",
@@ -394,19 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PermissionService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
-              "RelativeDocumentMoniker": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
-              "RelativeToolTip": "LoginSystemTask.Application\\Services\\Authentication\\PermissionService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T19:20:22.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\EmployeesController.cs",
@@ -415,18 +419,6 @@
               "ViewState": "AgIAAJEAAAAAAAAAAAAzwKwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T19:49:54.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PermissionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
-              "RelativeDocumentMoniker": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\LoginSystemTask\\LoginSystemTask-API\\LoginSystemTask.API\\Controllers\\PermissionsController.cs",
-              "RelativeToolTip": "LoginSystemTask.API\\Controllers\\PermissionsController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAzwIoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T19:23:19.008Z"
             },
             {
               "$type": "Document",
@@ -954,6 +946,14 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-25T15:01:35.28Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
